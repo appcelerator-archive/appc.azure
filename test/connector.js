@@ -28,7 +28,9 @@ describe('Connector', function() {
 		connector.connect(function(err) {
 			should(err).be.not.ok;
 
-			Model.createTableIfNotExists(next);
+			Model.createTableIfNotExists(function(err, result) {
+				err ? next(err) : next();
+			});
 		});
 	});
 	after(function(next) {
