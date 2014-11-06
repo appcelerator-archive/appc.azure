@@ -32,7 +32,7 @@ describe('Connector', function() {
 		});
 	});
 	after(function(next) {
-		connector.disconnect(next);
+		connector ? connector.disconnect(next) : next();
 	});
 
 	it('should be able to create instance', function(next) {
