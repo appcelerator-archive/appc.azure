@@ -14,12 +14,12 @@ describe('Connector', function() {
 		connector = new Connector();
 		Model = APIBuilder.createModel('Car', {
 			fields: {
-				Make: { type: 'string' },
-				Model: { type: 'string' },
-				Style: { type: 'string' },
-				Year: { type: 'number' },
-				Color: { type: 'string' },
-				Purchased: { type: 'date' }
+				Make: { type: 'String' },
+				Model: { type: 'String' },
+				Style: { type: 'String' },
+				Year: { type: 'Int32' },
+				Color: { type: 'String' },
+				Purchased: { type: 'DateTime' }
 			},
 			meta: {
 				azure: {
@@ -51,7 +51,7 @@ describe('Connector', function() {
 		Model.create(object, function(err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
-			should(instance.getPrimaryKey()).be.a.String;
+			should(instance.getPrimaryKey()).be.an.Object;
 			should(instance.Make).equal(object.Make);
 			should(instance.Year).be.a.Number;
 			should(instance.Purchased).be.an.instanceOf(Date);
@@ -68,7 +68,7 @@ describe('Connector', function() {
 			Model.find(id, function(err, instance2) {
 				should(err).be.not.ok;
 				should(instance2).be.an.Object;
-				should(instance2.getPrimaryKey()).equal(id);
+				should(instance2.getPrimaryKey()).deepEqual(id);
 				should(instance2.Make).equal(object.Make);
 				instance.delete(next);
 			});
@@ -124,7 +124,7 @@ describe('Connector', function() {
 				instance2.save(function(err, result) {
 					should(err).be.not.ok;
 					should(result).be.an.Object;
-					should(result.getPrimaryKey()).equal(id);
+					should(result.getPrimaryKey()).deepEqual(id);
 					should(result.Make).equal(newMake);
 					instance.delete(next);
 				});
@@ -153,7 +153,7 @@ describe('Connector', function() {
 		var found = false;
 		for (var i = 0; i < coll.length; i++) {
 			var instance2 = coll[i];
-			if (instance2.getPrimaryKey() === instance.getPrimaryKey()) {
+			if (JSON.stringify(instance2.getPrimaryKey()) === JSON.stringify(instance.getPrimaryKey())) {
 				found = true;
 				should(instance2.Make).equal(instance.Make);
 			}
