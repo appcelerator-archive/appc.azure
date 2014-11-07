@@ -21,6 +21,11 @@ describe('Connector', function() {
 				Color: { type: 'string' },
 				Purchased: { type: 'date' }
 			},
+			meta: {
+				azure: {
+					tableName: 'CarTest'
+				}
+			},
 			connector: connector
 		});
 		should(Model).be.ok;
@@ -29,12 +34,16 @@ describe('Connector', function() {
 			should(err).be.not.ok;
 
 			Model.createTableIfNotExists(function(err, result) {
-				err ? next(err) : next();
+				should(err).be.not.ok;
+				next();
 			});
 		});
 	});
 	after(function(next) {
-		connector ? connector.disconnect(next) : next();
+		Model.deleteTable(function(err, result) {
+			should(err).be.not.ok;
+			connector ? connector.disconnect(next) : next();
+		});
 	});
 
 	it('should be able to create instance', function(next) {
