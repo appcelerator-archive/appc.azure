@@ -112,21 +112,25 @@ describe('Connector', function() {
 	});
 
 	it('should be able to sel, limit while finding', function(next) {
-		var limit = 3,
+		var limit = 1,
 			object = createObject();
 		Model.create(object, function(err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
-			var options = {
-				where: { Make: object.Make },
-				sel: { Id: 1, Make: 1 },
-				limit: limit
-			};
-			Model.query(options, function(err, coll) {
+			Model.create(object, function(err, instance) {
 				should(err).be.not.ok;
-				should(coll.length).be.below(limit + 1);
-				shouldContain(coll, instance);
-				instance.delete(next);
+				should(instance).be.an.Object;
+				var options = {
+					where: { Make: object.Make },
+					sel: { Make: 1 },
+					limit: limit
+				};
+				Model.query(options, function(err, coll) {
+					should(err).be.not.ok;
+					should(coll.length).be.below(limit + 1);
+					should(coll.continuationToken).be.ok;
+					instance.delete(next);
+				});
 			});
 		});
 	});
