@@ -1,6 +1,6 @@
 {
 	"name": "appc.azure",
-	"description": "Azure Connector",
+	"description": "Provides access to Azure Storage Tables",
 	"version": "1.0.0",
 	"author": "Dawson Toth",
 	"license": "",
