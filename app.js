@@ -1,14 +1,5 @@
 var APIBuilder = require('apibuilder'),
-	server = new APIBuilder(),
-	ConnectorFactory = require('./lib'),
-	Connector = ConnectorFactory.create(APIBuilder, server),
-	connector = new Connector({
-		// Note: Instead of using the conf files, you can directly specify your credentials right here:
-		/*
-		 azure_account: '',
-		 azure_key: ''
-		 */
-	});
+	server = new APIBuilder();
 
 // lifecycle examples
 server.on('starting', function() {
@@ -43,10 +34,41 @@ function APIKeyAuthorization(req, resp, next) {
 	});
 }
 
+//--------------------- simple user model ---------------------//
+
+var Car = APIBuilder.Model.extend('Car', {
+	fields: {
+		Make: { type: String },
+		Model: { type: String },
+		Style: { type: String },
+		Year: { type: Number },
+		Color: { type: String },
+		Purchased: { type: Date }
+	},
+	meta: {
+		azure: {
+			table: 'Car'
+		}
+	},
+	connector: 'appc.azure'
+});
+
 // add an authorization policy for all requests at the server log
 server.authorization = APIKeyAuthorization;
+
+// create a user api from a user model
+server.addModel(Car);
 
 // start the server
 server.start(function() {
 	server.logger.info('server started on port', server.port);
+
+	Car.createTableIfNotExists(function(err, result) {
+		if (err) {
+			server.logger.error(err);
+		}
+		else {
+			server.logger.info('Ensured table exists');
+		}
+	});
 });

@@ -16,12 +16,12 @@ describe('Connector', function() {
 		connector = new Connector();
 		Model = APIBuilder.Model.extend('Car', {
 			fields: {
-				Make: { type: 'String' },
-				Model: { type: 'String' },
-				Style: { type: 'String' },
-				Year: { type: 'Int32' },
-				Color: { type: 'String' },
-				Purchased: { type: 'DateTime' }
+				Make: { type: String },
+				Model: { type: String },
+				Style: { type: String },
+				Year: { type: Number },
+				Color: { type: String },
+				Purchased: { type: Date }
 			},
 			meta: {
 				azure: {
