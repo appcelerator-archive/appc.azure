@@ -1,19 +1,18 @@
 var should = require('should'),
 	assert = require('assert'),
-	APIBuilder = require('apibuilder'),
-	Connector = require('../').create(APIBuilder),
+	APIBuilder = require('appcelerator').apibuilder,
+	Connector = require('../lib').create(APIBuilder),
+	connector = new Connector(),
 	config = new APIBuilder.Loader();
 
 describe('Connector', function() {
 
-	var connector,
-		Model;
+	var Model;
 
 	before(function(next) {
 		var self = this;
 		should.notEqual(config.azure_account, 'YOUR_AZURE_ACCOUNT', 'Please configure an account and key!');
 		should.notEqual(config.azure_key, 'YOUR_AZURE_KEY', 'Please configure an account and key!');
-		connector = new Connector();
 		Model = APIBuilder.Model.extend('Car', {
 			fields: {
 				Make: { type: String },

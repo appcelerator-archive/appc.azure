@@ -1,5 +1,8 @@
-var APIBuilder = require('apibuilder'),
-	server = new APIBuilder();
+var APIBuilder = require('appcelerator').apibuilder,
+	server = new APIBuilder(),
+	ConnectorFactory = require('./lib'),
+	Connector = ConnectorFactory.create(APIBuilder, server),
+	connector = new Connector();
 
 // lifecycle examples
 server.on('starting', function() {
@@ -50,7 +53,7 @@ var Car = APIBuilder.Model.extend('Car', {
 			table: 'Car'
 		}
 	},
-	connector: 'appc.azure'
+	connector: connector
 });
 
 // add an authorization policy for all requests at the server log
