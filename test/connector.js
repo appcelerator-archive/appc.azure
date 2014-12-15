@@ -1,18 +1,17 @@
 var should = require('should'),
 	assert = require('assert'),
 	APIBuilder = require('appcelerator').apibuilder,
-	Connector = require('../lib').create(APIBuilder),
-	connector = new Connector(),
-	config = new APIBuilder.Loader();
+	server = new APIBuilder(),
+	connector;
 
 describe('Connector', function() {
 
 	var Model;
 
 	before(function(next) {
+		connector = server.getConnector('appc.azure');
+		
 		var self = this;
-		should.notEqual(config.azure_account, 'YOUR_AZURE_ACCOUNT', 'Please configure an account and key!');
-		should.notEqual(config.azure_key, 'YOUR_AZURE_KEY', 'Please configure an account and key!');
 		Model = APIBuilder.Model.extend('Car', {
 			fields: {
 				Make: { type: String },
@@ -27,13 +26,11 @@ describe('Connector', function() {
 					table: 'CarTest'
 				}
 			},
-			connector: connector
+			connector: 'appc.azure'
 		});
 		should(Model).be.ok;
 
-		connector.connect(function connectCallback(err) {
-			should(err).be.not.ok;
-
+		(function connectCallback() {
 			Model.createTableIfNotExists(function(err, result) {
 				if (err && String(err).indexOf('The specified table is being deleted. Try operation later') >= 0) {
 					self.timeout(2 * 60 * 1000);
@@ -44,7 +41,7 @@ describe('Connector', function() {
 				should(err).be.not.ok;
 				next();
 			});
-		});
+		})();
 	});
 	after(function(next) {
 		Model.deleteTable(function(err, result) {

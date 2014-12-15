@@ -1,8 +1,6 @@
 var APIBuilder = require('appcelerator').apibuilder,
 	server = new APIBuilder(),
-	ConnectorFactory = require('./lib'),
-	Connector = ConnectorFactory.create(APIBuilder, server),
-	connector = new Connector();
+	connector = server.getConnector('appc.azure');
 
 // lifecycle examples
 server.on('starting', function() {
@@ -53,7 +51,7 @@ var Car = APIBuilder.Model.extend('Car', {
 			table: 'Car'
 		}
 	},
-	connector: connector
+	connector: 'appc.azure'
 });
 
 // add an authorization policy for all requests at the server log
@@ -63,7 +61,10 @@ server.authorization = APIKeyAuthorization;
 server.addModel(Car);
 
 // start the server
-server.start(function() {
+server.start(function(err) {
+	if (err) {
+		return server.logger.fatal(err);
+	}
 	server.logger.info('server started on port', server.port);
 
 	Car.createTableIfNotExists(function(err, result) {
