@@ -8,7 +8,7 @@ module.exports = {
 	apikey: 'U7eX4bHNFCVRgfw2IDypoRabolDqxzLB',
 	admin: {
 		enabled: true,
-		prefix: '/apibuilder'
+		prefix: '/arrow'
 	},
 	session: {
 		encryptionAlgorithm: 'aes256',

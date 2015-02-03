@@ -1,7 +1,7 @@
 var should = require('should'),
 	assert = require('assert'),
-	APIBuilder = require('appcelerator').apibuilder,
-	server = new APIBuilder(),
+	Arrow = require('appcelerator').arrow,
+	server = new Arrow(),
 	connector;
 
 describe('Connector', function() {
@@ -12,7 +12,7 @@ describe('Connector', function() {
 		connector = server.getConnector('appc.azure');
 		
 		var self = this;
-		Model = APIBuilder.Model.extend('Car', {
+		Model = Arrow.Model.extend('Car', {
 			fields: {
 				Make: { type: String },
 				Model: { type: String },

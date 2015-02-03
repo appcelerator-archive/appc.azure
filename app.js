@@ -2,10 +2,10 @@
  * NOTE: This file is simply for testing this connector and will not
  * be used or packaged with the actual connector when published.
  */
-var APIBuilder = require('appcelerator').apibuilder,
-	server = new APIBuilder();
+var Arrow = require('appcelerator').arrow,
+	server = new Arrow();
 
-var Car = APIBuilder.Model.extend('Car', {
+var Car = Arrow.Model.extend('Car', {
 	fields: {
 		Make: { type: String },
 		Model: { type: String },
