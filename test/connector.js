@@ -1,16 +1,13 @@
 var should = require('should'),
 	assert = require('assert'),
-	Arrow = require('appcelerator').arrow,
-	server = new Arrow(),
-	connector;
+	Arrow = require('arrow'),
+	server = new Arrow();
 
 describe('Connector', function() {
 
 	var Model;
 
 	before(function(next) {
-		connector = server.getConnector('appc.azure');
-		
 		var self = this;
 		Model = Arrow.Model.extend('Car', {
 			fields: {
@@ -46,7 +43,7 @@ describe('Connector', function() {
 	after(function(next) {
 		Model.deleteTable(function(err, result) {
 			should(err).be.not.ok;
-			connector ? connector.disconnect(next) : next();
+			next();
 		});
 	});
 
@@ -108,25 +105,20 @@ describe('Connector', function() {
 	});
 
 	it('should be able to sel, limit while finding', function(next) {
-		var limit = 1,
+		var limit = 2,
 			object = createObject();
-		Model.create(object, function(err, instance) {
+		Model.create([object, object, object], function (err, instances) {
 			should(err).be.not.ok;
-			should(instance).be.an.Object;
-			Model.create(object, function(err, instance) {
+			var options = {
+				where: { Make: object.Make },
+				sel: { Make: 1 },
+				limit: limit
+			};
+			Model.query(options, function (err, coll) {
 				should(err).be.not.ok;
-				should(instance).be.an.Object;
-				var options = {
-					where: { Make: object.Make },
-					sel: { Make: 1 },
-					limit: limit
-				};
-				Model.query(options, function(err, coll) {
-					should(err).be.not.ok;
-					should(coll.length).be.below(limit + 1);
-					should(coll.continuationToken).be.ok;
-					instance.delete(next);
-				});
+				should(coll.length).be.below(limit + 1);
+				should(coll.continuationToken).be.ok;
+				next();
 			});
 		});
 	});
