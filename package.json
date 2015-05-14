@@ -1,7 +1,7 @@
 {
 	"name": "appc.azure",
 	"description": "Provides access to Azure Storage Tables",
-	"version": "1.0.12",
+	"version": "1.0.13",
 	"author": "Dawson Toth",
 	"maintainers": [
 		"Dawson Toth <dtoth@appcelerator.com>"
