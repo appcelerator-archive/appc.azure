@@ -3,20 +3,20 @@ var should = require('should'),
 	Arrow = require('arrow'),
 	server = new Arrow();
 
-describe('Connector', function() {
+describe('Connector', function () {
 
 	var Model;
 
-	before(function(next) {
+	before(function (next) {
 		var self = this;
 		Model = Arrow.Model.extend('Car', {
 			fields: {
-				Make: { type: String },
-				Model: { type: String },
-				Style: { type: String },
-				Year: { type: Number },
-				Color: { type: String },
-				Purchased: { type: Date }
+				Make: {type: String},
+				Model: {type: String},
+				Style: {type: String},
+				Year: {type: Number},
+				Color: {type: String},
+				Purchased: {type: Date}
 			},
 			meta: {
 				azure: {
@@ -28,7 +28,7 @@ describe('Connector', function() {
 		should(Model).be.ok;
 
 		(function connectCallback() {
-			Model.createTableIfNotExists(function(err, result) {
+			Model.createTableIfNotExists(function (err, result) {
 				if (err && String(err).indexOf('The specified table is being deleted. Try operation later') >= 0) {
 					self.timeout(2 * 60 * 1000);
 					console.log('delaying create table until last test run finishes cleaning up...');
@@ -40,16 +40,16 @@ describe('Connector', function() {
 			});
 		})();
 	});
-	after(function(next) {
-		Model.deleteTable(function(err, result) {
+	after(function (next) {
+		Model.deleteTable(function (err, result) {
 			should(err).be.not.ok;
 			next();
 		});
 	});
 
-	it('should be able to create instance', function(next) {
+	it('should be able to create instance', function (next) {
 		var object = createObject();
-		Model.create(object, function(err, instance) {
+		Model.create(object, function (err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
 			should(instance.getPrimaryKey()).be.an.Object;
@@ -60,12 +60,39 @@ describe('Connector', function() {
 		});
 	});
 
-	it('should be able to find all', function(next) {
+	it('should error with invalid model types', function (next) {
+		var Model = Arrow.Model.extend('Car', {
+			fields: {
+				Make: {type: 'SomeBadType'},
+				Model: {type: String},
+				Style: {type: String},
+				Year: {type: Number},
+				Color: {type: String},
+				Purchased: {type: Date}
+			},
+			meta: {
+				azure: {
+					table: 'CarTest'
+				}
+			},
+			connector: 'appc.azure'
+		});
+		should(Model).be.ok;
 		var object = createObject();
-		Model.create(object, function(err, instance) {
+		delete object.Make;
+		Model.create(object, function (err, instance) {
+			should(err).be.ok;
+			should(err.message).containEql('which is not supported by Azure');
+			next();
+		});
+	});
+
+	it('should be able to find all', function (next) {
+		var object = createObject();
+		Model.create(object, function (err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
-			Model.findAll(function(err, coll) {
+			Model.findAll(function (err, coll) {
 				should(err).be.not.ok;
 				shouldContain(coll, instance);
 				instance.delete(next);
@@ -73,13 +100,20 @@ describe('Connector', function() {
 		});
 	});
 
-	it('should be able to find an instance by ID', function(next) {
+	it('should error if you try to deleteAll', function (next) {
+		Model.deleteAll(function (err) {
+			should(err).be.ok;
+			next();
+		});
+	});
+
+	it('should be able to find an instance by ID', function (next) {
 		var object = createObject();
-		Model.create(object, function(err, instance) {
+		Model.create(object, function (err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
 			var id = instance.getPrimaryKey();
-			Model.findOne(id, function(err, instance2) {
+			Model.findOne(id, function (err, instance2) {
 				should(err).be.not.ok;
 				should(instance2).be.an.Object;
 				assert.deepEqual(instance.getPrimaryKey(), instance2.getPrimaryKey());
@@ -90,13 +124,13 @@ describe('Connector', function() {
 		});
 	});
 
-	it('should be able to find an instance by field value', function(next) {
+	it('should be able to find an instance by field value', function (next) {
 		var object = createObject();
-		Model.create(object, function(err, instance) {
+		Model.create(object, function (err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
-			var options = { Make: object.Make };
-			Model.find(options, function(err, coll) {
+			var options = {Make: object.Make};
+			Model.find(options, function (err, coll) {
 				should(err).be.not.ok;
 				shouldContain(coll, instance);
 				instance.delete(next);
@@ -104,14 +138,14 @@ describe('Connector', function() {
 		});
 	});
 
-	it('should be able to sel, limit while finding', function(next) {
+	it('should be able to sel, limit while finding', function (next) {
 		var limit = 2,
 			object = createObject();
 		Model.create([object, object, object], function (err, instances) {
 			should(err).be.not.ok;
 			var options = {
-				where: { Make: object.Make },
-				sel: { Make: 1 },
+				where: {Make: object.Make},
+				sel: {Make: 1},
 				limit: limit
 			};
 			Model.query(options, function (err, coll) {
@@ -123,17 +157,17 @@ describe('Connector', function() {
 		});
 	});
 
-	it('should be able to update an instance', function(next) {
+	it('should be able to update an instance', function (next) {
 		var object = createObject();
-		Model.create(object, function(err, instance) {
+		Model.create(object, function (err, instance) {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
 			var id = instance.getPrimaryKey();
-			Model.findOne(id, function(err, instance2) {
+			Model.findOne(id, function (err, instance2) {
 				should(err).be.not.ok;
 				var newMake = 'Toyota';
 				instance2.set('Make', newMake);
-				instance2.save(function(err, result) {
+				instance2.save(function (err, result) {
 					should(err).be.not.ok;
 					should(result).be.an.Object;
 					assert.deepEqual(instance.getPrimaryKey(), instance2.getPrimaryKey());
