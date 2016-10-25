@@ -113,7 +113,7 @@ describe('Connector', function () {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
 			var id = instance.getPrimaryKey();
-			Model.findOne(id, function (err, instance2) {
+			Model.findByID(id, function (err, instance2) {
 				should(err).be.not.ok;
 				should(instance2).be.an.Object;
 				assert.deepEqual(instance.getPrimaryKey(), instance2.getPrimaryKey());
@@ -163,7 +163,7 @@ describe('Connector', function () {
 			should(err).be.not.ok;
 			should(instance).be.an.Object;
 			var id = instance.getPrimaryKey();
-			Model.findOne(id, function (err, instance2) {
+			Model.findByID(id, function (err, instance2) {
 				should(err).be.not.ok;
 				var newMake = 'Toyota';
 				instance2.set('Make', newMake);
