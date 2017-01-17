@@ -5,7 +5,7 @@ This is a Arrow connector to Azure.
 ## Installation
 
 ```bash
-$ appc install connector/appc.azure --save
+$ appc install connector/appc.azure
 ```
 
 ## Development
