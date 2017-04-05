@@ -5,3 +5,5 @@ logs
 *.tgz
 conf/local.js
 coverage
+.nyc_output
+.vscode

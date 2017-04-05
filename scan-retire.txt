@@ -1,0 +1,1062 @@
+Loading from cache: https://raw.githubusercontent.com/RetireJS/retire.js/master/repository/jsrepository.json
+Loading from cache: https://raw.githubusercontent.com/RetireJS/retire.js/master/repository/npmrepository.json
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/moment/moment.js
+ ↳ moment.js 2.6.0 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/arrow-admin/dist/app.js
+ ↳ jquery 2.1.4 has known vulnerabilities: severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+Could not parse file: /Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/bcryptjs/src/bower.json
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/moment/min/moment-with-langs.js
+ ↳ moment.js 2.6.0 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/moment/min/moment-with-langs.min.js
+ ↳ moment.js 2.6.0 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/moment/min/moment.min.js
+ ↳ moment.js 2.6.0 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/acs/node_modules/moment/moment.js
+ ↳ moment.js 2.8.3 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/arrow-admin/dist/jquery/jquery.js
+ ↳ jquery 2.1.4 has known vulnerabilities: severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/arrow-admin/dist/moment/moment.js
+ ↳ moment.js 2.7.0 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/esprima/assets/yui/treeview-min.js
+ ↳ YUI 2.9.0 has known vulnerabilities: severity: high; CVE: CVE-2012-5883; http://www.cvedetails.com/cve/CVE-2012-5883/ severity: high; CVE: CVE-2012-5882; http://www.cvedetails.com/cve/CVE-2012-5882/ severity: high; CVE: CVE-2012-5881; http://www.cvedetails.com/cve/CVE-2012-5881/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/esprima/assets/yui/yahoo-dom-event.js
+ ↳ YUI 2.9.0 has known vulnerabilities: severity: high; CVE: CVE-2012-5883; http://www.cvedetails.com/cve/CVE-2012-5883/ severity: high; CVE: CVE-2012-5882; http://www.cvedetails.com/cve/CVE-2012-5882/ severity: high; CVE: CVE-2012-5881; http://www.cvedetails.com/cve/CVE-2012-5881/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/esprima/test/3rdparty/jquery-1.6.4.js
+ ↳ jquery 1.6.4 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/ severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/esprima/test/3rdparty/jquery-1.7.1.js
+ ↳ jquery 1.7.1 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/ severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/esprima/test/3rdparty/jquery.mobile-1.0.js
+ ↳ jquery-mobile 1.0 has known vulnerabilities: severity: high; osvdb: 94317; http://osvdb.org/show/osvdb/94317 severity: medium; issue: 4787, release: http://jquerymobile.com/changelog/1.1.2/, summary: location.href cross-site scripting; http://jquerymobile.com/changelog/1.1.2/ https://github.com/jquery/jquery-mobile/issues/4787 severity: medium; issue: 4787, release: http://jquerymobile.com/changelog/1.2.0/, summary: location.href cross-site scripting; http://jquerymobile.com/changelog/1.2.0/ https://github.com/jquery/jquery-mobile/issues/4787 severity: medium; summary: open redirect leads to cross site scripting; http://sirdarckcat.blogspot.no/2017/02/unpatched-0day-jquery-mobile-xss.html
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/acs/node_modules/moment/min/moment-with-locales.js
+ ↳ moment.js 2.8.3 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/acs/node_modules/moment/min/moment-with-locales.min.js
+ ↳ moment.js 2.8.3 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/acs/node_modules/moment/min/moment.min.js
+ ↳ moment.js 2.8.3 has known vulnerabilities: severity: low; summary: reDOS - regular expression denial of service; https://github.com/moment/moment/issues/2936
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/arrow-admin/dist/history/vendor/jquery.js
+ ↳ jquery 1.9.1 has known vulnerabilities: severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/socket.io-client/node_modules/uglify-js/tmp/app.js
+ ↳ jquery 1.6.3 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/ severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+ ↳ backbone.js 0.5.3
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/underscore.string/test/test_underscore/vendor/jquery.js
+ ↳ jquery 1.3.2 has known vulnerabilities: severity: medium; CVE: CVE-2011-4969; http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4969 http://research.insecurelabs.org/jquery/test/ severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/acs/node_modules/qs/test/browser/jquery.js
+ ↳ jquery 1.6.2 has known vulnerabilities: severity: medium; CVE: CVE-2011-4969; http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4969 http://research.insecurelabs.org/jquery/test/ severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/ severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/vendor/jquery.js
+ ↳ jquery 1.7.2 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/ severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+/Users/vtrifonov/Documents/Projects/appc.azure-forked/node_modules/grunt-legacy-log-utils/node_modules/underscore.string/test/test_underscore/vendor/jquery.js
+ ↳ jquery 1.7.2 has known vulnerabilities: severity: medium; bug: 11290, summary: Selector interpreted as HTML; http://bugs.jquery.com/ticket/11290 http://research.insecurelabs.org/jquery/test/ severity: medium; issue: 2432, summary: 3rd party CORS request may execute; https://github.com/jquery/jquery/issues/2432 http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ moment 2.6.0
+qs 0.4.2 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ qs 0.4.2
+uglify-js 1.3.2 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ uglify-js 1.3.2
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ validator 3.1.0
+cli 0.6.6 has known vulnerabilities:  severity: low; advisory: Arbitrary File Write; https://nodesecurity.io/advisories/95
+appc.azure 1.1.5
+↳ cli 0.6.6
+connect 2.3.5 has known vulnerabilities:  https://nodesecurity.io/advisories/methodOverride_Middleware_Reflected_Cross-Site_Scripting
+appc.azure 1.1.5
+↳ connect 2.3.5
+send 0.1.0 has known vulnerabilities:  severity: low; CVE: CVE-2014-6394, advisory: send-directory-traversal; http://nodesecurity.io/advisories/send-directory-traversal severity: low; summary: discloses root path; https://nodesecurity.io/advisories/56 https://github.com/pillarjs/send/pull/70 https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+appc.azure 1.1.5
+↳ send 0.1.0
+ws 0.4.32 has known vulnerabilities:  https://nodesecurity.io/advisories/67 advisory: DoS due to excessively large websocket message; https://nodesecurity.io/advisories/120
+appc.azure 1.1.5
+↳ ws 0.4.32
+npm 2.14.22 has known vulnerabilities:  https://nodesecurity.io/advisories/98
+appc.azure 1.1.5
+↳ npm 2.14.22
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ npm 2.14.22
+ ↳ request 2.69.0
+  ↳ tough-cookie 2.2.1
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ npm 2.14.22
+ ↳ npm-registry-client 7.0.9
+  ↳ request 2.69.0
+   ↳ tough-cookie 2.2.1
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ npm 2.14.22
+ ↳ node-gyp 3.3.0
+  ↳ request 2.69.0
+   ↳ tough-cookie 2.2.1
+connect 2.3.5 has known vulnerabilities:  https://nodesecurity.io/advisories/methodOverride_Middleware_Reflected_Cross-Site_Scripting
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ connect 2.3.5
+moment 2.8.3 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ moment 2.8.3
+node-uuid 1.3.3 has known vulnerabilities:  https://nodesecurity.io/advisories/93
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ node-uuid 1.3.3
+npm 2.14.22 has known vulnerabilities:  https://nodesecurity.io/advisories/98
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ npm 2.14.22
+uglify-js 1.3.2 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ uglify-js 1.3.2
+qs 0.5.1 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ qs 0.5.1
+uglify-js 1.2.5 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ socket.io 0.9.16
+  ↳ socket.io-client 0.9.16
+   ↳ uglify-js 1.2.5
+ws 0.4.32 has known vulnerabilities:  https://nodesecurity.io/advisories/67 advisory: DoS due to excessively large websocket message; https://nodesecurity.io/advisories/120
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ socket.io 0.9.16
+  ↳ socket.io-client 0.9.16
+   ↳ ws 0.4.32
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ npm 2.14.22
+  ↳ request 2.69.0
+   ↳ tough-cookie 2.2.1
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ npm 2.14.22
+  ↳ npm-registry-client 7.0.9
+   ↳ request 2.69.0
+    ↳ tough-cookie 2.2.1
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ npm 2.14.22
+  ↳ node-gyp 3.3.0
+   ↳ request 2.69.0
+    ↳ tough-cookie 2.2.1
+connect 2.6.0 has known vulnerabilities:  https://nodesecurity.io/advisories/methodOverride_Middleware_Reflected_Cross-Site_Scripting
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ express 3.0.0
+  ↳ connect 2.6.0
+send 0.1.0 has known vulnerabilities:  severity: low; CVE: CVE-2014-6394, advisory: send-directory-traversal; http://nodesecurity.io/advisories/send-directory-traversal severity: low; summary: discloses root path; https://nodesecurity.io/advisories/56 https://github.com/pillarjs/send/pull/70 https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ express 3.0.0
+  ↳ send 0.1.0
+qs 0.5.1 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ express 3.0.0
+  ↳ connect 2.6.0
+   ↳ qs 0.5.1
+send 0.0.4 has known vulnerabilities:  severity: low; CVE: CVE-2014-6394, advisory: send-directory-traversal; http://nodesecurity.io/advisories/send-directory-traversal severity: low; summary: discloses root path; https://nodesecurity.io/advisories/56 https://github.com/pillarjs/send/pull/70 https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ express 3.0.0
+  ↳ connect 2.6.0
+   ↳ send 0.0.4
+qs 0.4.2 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ acs 1.2.2
+ ↳ connect 2.3.5
+  ↳ qs 0.4.2
+ms 0.6.2 has known vulnerabilities:  severity: medium; summary: Regular expression denial of service; https://nodesecurity.io/advisories/46
+appc.azure 1.1.5
+↳ mocha 1.21.5
+ ↳ ms 0.6.2
+ms 0.6.2 has known vulnerabilities:  severity: medium; summary: Regular expression denial of service; https://nodesecurity.io/advisories/46
+appc.azure 1.1.5
+↳ mocha 1.21.5
+ ↳ debug 2.0.0
+  ↳ ms 0.6.2
+tough-cookie 2.2.2 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ fsevents 1.0.15
+ ↳ tough-cookie 2.2.2
+tough-cookie 2.2.2 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ fsevents 1.0.15
+ ↳ request 2.73.0
+  ↳ tough-cookie 2.2.2
+tough-cookie 2.2.2 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ fsevents 1.0.15
+ ↳ node-pre-gyp 0.6.29
+  ↳ request 2.73.0
+   ↳ tough-cookie 2.2.2
+uglify-js 1.2.5 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ socket.io-client 0.9.16
+ ↳ uglify-js 1.2.5
+ws 0.4.32 has known vulnerabilities:  https://nodesecurity.io/advisories/67 advisory: DoS due to excessively large websocket message; https://nodesecurity.io/advisories/120
+appc.azure 1.1.5
+↳ socket.io-client 0.9.16
+ ↳ ws 0.4.32
+cli 0.6.6 has known vulnerabilities:  severity: low; advisory: Arbitrary File Write; https://nodesecurity.io/advisories/95
+appc.azure 1.1.5
+↳ jshint 2.5.11
+ ↳ cli 0.6.6
+qs 0.4.2 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ connect 2.3.5
+ ↳ qs 0.4.2
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ qs 0.6.6
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ request 2.27.0
+  ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ request 2.27.0
+  ↳ qs 0.6.6
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ azure-common 0.9.10
+  ↳ validator 3.1.0
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ azure-common 0.9.10
+  ↳ request 2.27.0
+   ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure-keyvault 0.9.2
+ ↳ azure-common 0.9.10
+  ↳ request 2.27.0
+   ↳ qs 0.6.6
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-common 0.9.12
+ ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-common 0.9.12
+ ↳ hawk 1.1.1
+connect 2.3.5 has known vulnerabilities:  https://nodesecurity.io/advisories/methodOverride_Middleware_Reflected_Cross-Site_Scripting
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ connect 2.3.5
+moment 2.8.3 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ moment 2.8.3
+node-uuid 1.3.3 has known vulnerabilities:  https://nodesecurity.io/advisories/93
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ node-uuid 1.3.3
+npm 2.14.22 has known vulnerabilities:  https://nodesecurity.io/advisories/98
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ npm 2.14.22
+uglify-js 1.3.2 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ uglify-js 1.3.2
+qs 0.5.1 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ qs 0.5.1
+uglify-js 1.2.5 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ socket.io 0.9.16
+   ↳ socket.io-client 0.9.16
+    ↳ uglify-js 1.2.5
+ws 0.4.32 has known vulnerabilities:  https://nodesecurity.io/advisories/67 advisory: DoS due to excessively large websocket message; https://nodesecurity.io/advisories/120
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ socket.io 0.9.16
+   ↳ socket.io-client 0.9.16
+    ↳ ws 0.4.32
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ npm 2.14.22
+   ↳ request 2.69.0
+    ↳ tough-cookie 2.2.1
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ npm 2.14.22
+   ↳ npm-registry-client 7.0.9
+    ↳ request 2.69.0
+     ↳ tough-cookie 2.2.1
+tough-cookie 2.2.1 has known vulnerabilities:  advisory: ReDoS via long string of semicolons; https://nodesecurity.io/advisories/130
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ npm 2.14.22
+   ↳ node-gyp 3.3.0
+    ↳ request 2.69.0
+     ↳ tough-cookie 2.2.1
+connect 2.6.0 has known vulnerabilities:  https://nodesecurity.io/advisories/methodOverride_Middleware_Reflected_Cross-Site_Scripting
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ express 3.0.0
+   ↳ connect 2.6.0
+send 0.1.0 has known vulnerabilities:  severity: low; CVE: CVE-2014-6394, advisory: send-directory-traversal; http://nodesecurity.io/advisories/send-directory-traversal severity: low; summary: discloses root path; https://nodesecurity.io/advisories/56 https://github.com/pillarjs/send/pull/70 https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ express 3.0.0
+   ↳ send 0.1.0
+qs 0.5.1 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ express 3.0.0
+   ↳ connect 2.6.0
+    ↳ qs 0.5.1
+send 0.0.4 has known vulnerabilities:  severity: low; CVE: CVE-2014-6394, advisory: send-directory-traversal; http://nodesecurity.io/advisories/send-directory-traversal severity: low; summary: discloses root path; https://nodesecurity.io/advisories/56 https://github.com/pillarjs/send/pull/70 https://github.com/expressjs/serve-static/blob/master/HISTORY.md#181--2015-01-20
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ express 3.0.0
+   ↳ connect 2.6.0
+    ↳ send 0.0.4
+qs 0.4.2 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ arrow 1.8.12
+ ↳ acs 1.2.2
+  ↳ connect 2.3.5
+   ↳ qs 0.4.2
+uglify-js 1.2.5 has known vulnerabilities:  https://github.com/mishoo/UglifyJS2/issues/751 https://github.com/tmcw/mdast-uglify-bug https://nodesecurity.io/advisories/48
+appc.azure 1.1.5
+↳ socket.io 0.9.16
+ ↳ socket.io-client 0.9.16
+  ↳ uglify-js 1.2.5
+ws 0.4.32 has known vulnerabilities:  https://nodesecurity.io/advisories/67 advisory: DoS due to excessively large websocket message; https://nodesecurity.io/advisories/120
+appc.azure 1.1.5
+↳ socket.io 0.9.16
+ ↳ socket.io-client 0.9.16
+  ↳ ws 0.4.32
+cli 0.6.6 has known vulnerabilities:  severity: low; advisory: Arbitrary File Write; https://nodesecurity.io/advisories/95
+appc.azure 1.1.5
+↳ grunt-contrib-jshint 0.10.0
+ ↳ jshint 2.5.11
+  ↳ cli 0.6.6
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure-scheduler 0.10.0
+ ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-scheduler 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-scheduler 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-sb 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-sb 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure-monitoring 0.10.0
+ ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-monitoring 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-monitoring 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-gallery 2.0.0-pre.16
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-gallery 2.0.0-pre.16
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-trafficmanager 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-trafficmanager 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure-asm-website 0.10.0
+ ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-website 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-website 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-subscription 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-subscription 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-store 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-store 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-storage 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-storage 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-sql 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-sql 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-scheduler 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-scheduler 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-sb 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-sb 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-network 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-network 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-mgmt 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-mgmt 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-hdinsight 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-hdinsight 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-asm-compute 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-asm-compute 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure-arm-website 0.10.0
+ ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-website 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-website 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-storage 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-storage 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-resource 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-resource 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-network 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-network 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-keyvault 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-keyvault 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure-arm-insights 0.10.0
+ ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-insights 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-insights 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-dns 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-dns 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-compute 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-compute 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure-arm-authorization 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-arm-authorization 0.10.0
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+hawk 2.3.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-storage 0.4.5
+ ↳ hawk 2.3.1
+hawk 2.3.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure-storage 0.4.5
+ ↳ request 2.57.0
+  ↳ hawk 2.3.1
+node-uuid 1.2.0 has known vulnerabilities:  https://nodesecurity.io/advisories/93
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ node-uuid 1.2.0
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ qs 0.6.6
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ request 2.45.0
+  ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-storage 0.3.3
+  ↳ validator 3.1.0
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-storage 0.3.3
+  ↳ request 2.27.0
+   ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-storage 0.3.3
+  ↳ request 2.27.0
+   ↳ qs 0.6.6
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-scheduler 0.10.0
+  ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-scheduler 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-scheduler 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-sb 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-sb 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-monitoring 0.10.0
+  ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-monitoring 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-monitoring 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ qs 0.6.6
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ request 2.27.0
+   ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ request 2.27.0
+   ↳ qs 0.6.6
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ azure-common 0.9.10
+   ↳ validator 3.1.0
+hawk 1.0.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ azure-common 0.9.10
+   ↳ request 2.27.0
+    ↳ hawk 1.0.0
+qs 0.6.6 has known vulnerabilities:  severity: low; advisory: qs_dos_extended_event_loop_blocking; https://nodesecurity.io/advisories/qs_dos_extended_event_loop_blocking
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-keyvault 0.9.2
+  ↳ azure-common 0.9.10
+   ↳ request 2.27.0
+    ↳ qs 0.6.6
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-gallery 2.0.0-pre.16
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-gallery 2.0.0-pre.16
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-common 0.9.12
+  ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-common 0.9.12
+  ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-website 0.10.0
+  ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-website 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-website 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-trafficmanager 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-trafficmanager 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-subscription 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-subscription 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-store 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-store 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-storage 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-storage 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-sql 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-sql 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-scheduler 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-scheduler 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-sb 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-sb 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-network 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-network 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-mgmt 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-mgmt 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-hdinsight 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-hdinsight 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-compute 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-asm-compute 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-website 0.10.0
+  ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-website 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-website 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-storage 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-storage 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-resource 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-resource 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-network 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-network 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-keyvault 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-keyvault 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+moment 2.6.0 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/55
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-insights 0.10.0
+  ↳ moment 2.6.0
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-insights 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-insights 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-dns 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-dns 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-compute 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-compute 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1
+validator 3.1.0 has known vulnerabilities:  severity: medium; CVE: CVE-2014-8882, advisory: validator-isurl-denial-of-service; http://nodesecurity.io/advisories/validator-isurl-denial-of-service
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-authorization 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ validator 3.1.0
+hawk 1.1.1 has known vulnerabilities:  severity: low; summary: Regex denial of service; https://nodesecurity.io/advisories/77
+appc.azure 1.1.5
+↳ azure 0.10.6
+ ↳ azure-arm-authorization 0.10.0
+  ↳ azure-common 0.9.12
+   ↳ hawk 1.1.1

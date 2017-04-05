@@ -1,47 +1,66 @@
 {
-	"name": "appc.azure",
-	"description": "Provides access to Azure Storage Tables",
-	"version": "1.1.5",
-	"author": "Dawson Toth",
-	"maintainers": [
-		"Dawson Toth <dtoth@appcelerator.com>"
-	],
-	"license": "Apache-2.0",
-	"framework": "none",
-	"keywords": [
-		"arrow",
-		"arrow-connector",
-		"appcelerator",
-		"azure"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/appcelerator/appc.azure"
-	},
-	"scripts": {
-		"start": "appc run",
-		"test": "grunt"
-	},
-	"private": true,
-	"dependencies": {
-		"async": "^0.9.0",
-		"azure": "^0.10.0",
-		"azure-storage": "^0.4.0",
-		"lodash": "^3.10.1",
-		"node-uuid": "^1.4.1",
-		"pkginfo": "^0.3.0",
-		"semver": "^5.0.3"
-	},
-	"devDependencies": {
-		"arrow": "^*",
-		"grunt": "^0.4.5",
-		"grunt-contrib-clean": "^0.6.0",
-		"grunt-contrib-jshint": "^0.10.0",
-		"grunt-kahvesi-latest": "^0.2.5",
-		"grunt-mocha-test": "^0.12.0",
-		"mocha": "^1.21.4",
-		"nodemon": "^1.3.8",
-		"request": "^2.55.0",
-		"should": "^4.0.4"
-	}
+  "name": "appc.azure",
+  "description": "Provides access to Azure Storage Tables",
+  "version": "1.2.0",
+  "author": "Dawson Toth",
+  "maintainers": [
+    "Dawson Toth <dtoth@appcelerator.com>"
+  ],
+  "license": "Apache-2.0",
+  "framework": "none",
+  "keywords": [
+    "arrow",
+    "arrow-connector",
+    "appcelerator",
+    "azure"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appcelerator/appc.azure"
+  },
+  "private": true,
+  "dependencies": {
+    "async": "^0.9.0",
+    "azure": "^0.10.0",
+    "azure-storage": "^0.4.0",
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.1",
+    "pkginfo": "^0.3.0",
+    "semver": "^5.0.3"
+  },
+  "devDependencies": {
+    "arrow": "^*",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-kahvesi-latest": "^0.2.5",
+    "grunt-mocha-test": "^0.12.0",
+    "mocha": "^1.21.4",
+    "mockery": "2.0.0",
+    "nodemon": "^1.3.8",
+    "nsp": "2.6.3",
+    "nyc": "10.2.0",
+    "request": "^2.55.0",
+    "retire": "1.2.12",
+    "rimraf": "2.6.1",
+    "should": "^4.0.4",
+    "sinon": "2.1.0",
+    "standard": "9.0.2",
+    "tap": "10.3.1"
+  },
+  "scripts": {
+    "start": "appc run",
+    "lint": "standard --fix",
+    "security": "retire --exitwith 0 --outputpath scan-retire.txt && nsp check --output writefile --warn-only",
+    "clean": "rimraf ./tmp",
+    "test": "npm run lint && npm run security && npm run test:unit && npm run clean",
+    "test:coverage": "nyc check-coverage --lines 90 --functions 90 --branches 70 --statements 90",
+    "test:unit": "tap ./test/unit/* --color --bail --coverage --coverage-report=html && npm run test:coverage",
+    "test:integration": "grunt"
+  },
+  "standard": {
+    "ignore": [
+      "test/integration/**"
+    ]
+  }
 }
