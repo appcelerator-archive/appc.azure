@@ -7,3 +7,4 @@ conf/local.js
 coverage
 .nyc_output
 .vscode
+scan-retire.txt
