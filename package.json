@@ -65,7 +65,7 @@
     "clean": "rimraf ./tmp && rimraf dist/* coverage/*",
     "test": "npm run security && npm run test:unit && npm run clean",
     "test:coverage": "nyc check-coverage --lines 90 --functions 90 --branches 70 --statements 90",
-    "test:unit": "tap ./test/unit/* --color --bail --coverage --coverage-report=html && npm run test:coverage",
+    "test:unit": "cross-env NODE_ENV=test babel-node node_modules/babel-istanbul/lib/cli.js cover node_modules/.bin/tap --compilers babel-core/register ./test/unit/* --recursive -R spec --color --bail --coverage --coverage-report=html && npm run test:coverage",
     "test:integration": "grunt"
   },
   "standard": {
