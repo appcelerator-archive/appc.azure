@@ -62,7 +62,7 @@
     "build:dist": "babel -d ./dist ./lib",
     "lint": "standard --fix",
     "security": "retire --outputpath scan-retire.json && nsp check --output json > scan-nsp.json",
-    "clean": "rimraf ./tmp && rimraf dist/* coverage/*",
+    "clean": "rm -rf ./tmp && rm -rf dist/* coverage/*",
     "test":  "npm run clean && npm run test:unit",
     "test:coverage": "nyc check-coverage --lines 90 --functions 90 --branches 70 --statements 90",
     "test:unit": "tap ./test/unit/* --color --bail --coverage --coverage-report=html && npm run test:coverage",
