@@ -61,11 +61,12 @@
     "grunt": "^1.0.1",
     "grunt-mocha-test": "^0.13.2",
     "mocha": "4.0.1",
-    "should": "13.1.3"
+    "should": "13.1.3",
+    "eslint-config-standard": "11.0.0-beta.0"
   },
   "scripts": {
     "start": "appc run",
-    "all": "npm i && npm run clean && npm run lint:fix && npm run test && npm run build:dist && npm run security && npm run check:dependencies",
+    "all": "npm i --no-optional && npm run clean && npm run lint:fix && npm run test && npm run build:dist && npm run security && npm run check:dependencies",
     "build": "npm run clean && npm run build:dev && npm run check:dependencies && npm run security",
     "build:dev": "npm run build:lint && npm run test && npm run build:dist",
     "build:dist": "npm run transpile",
