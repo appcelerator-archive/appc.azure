@@ -1,6 +1,6 @@
 {
   "name": "appc.azure",
-  "version": "1.2.0-8",
+  "version": "1.2.0-9",
   "description": "Provides access to Azure Storage Tables",
   "author": {
     "email": "support@axway.com",
