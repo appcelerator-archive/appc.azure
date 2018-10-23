@@ -37,7 +37,7 @@ test('### Should return table name ###', function (t) {
   const getMetaStub = sandbox.stub().returns(undefined)
 
   // Function call
-  const tableName = method.call({name: 'appc.azure'}, {
+  const tableName = method.call({ name: 'appc.azure' }, {
     _parent: {
       name: 'appc.azure/Accounts'
     },

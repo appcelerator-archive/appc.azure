@@ -10,7 +10,7 @@ test('### Should transform entity to model ###', function (t) {
   // Sinon sandbox
   const sandbox = sinon.sandbox.create()
 
-   // Fake model's instance
+  // Fake model's instance
   const fakeInst = {
     setPrimaryKey: sandbox.spy()
   }
